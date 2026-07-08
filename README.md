@@ -2,158 +2,199 @@
 
 ## Project Overview
 
-This project demonstrates a complete business analysis workflow using **Microsoft Excel** and the **Online Retail II** dataset from the UCI Machine Learning Repository.
+This project demonstrates a complete business analysis workflow using **Microsoft Excel** with the **Global Superstore 2016** dataset.
 
-The objective is to simulate the responsibilities of a **Junior Data Analyst** by working through every stage of a real analytics project—from understanding the raw data and assessing data quality to cleaning, analyzing, visualizing, and presenting actionable business insights.
+The objective is to simulate the responsibilities of a **Junior Data Analyst** by working through a real-world business scenario—from data quality assessment and cleaning to business analysis, dashboard creation, and strategic recommendations.
 
-Rather than focusing only on Excel features, this project emphasizes solving realistic business problems through structured data analysis and evidence-based recommendations.
+This project focuses not only on using Excel features but also on applying analytical thinking to solve practical business problems.
 
 ---
 
 # Business Scenario
 
-The management team of an online retail company wants to better understand its historical sales performance and identify opportunities for future growth.
+A global retail company wants to better understand its historical sales performance and identify opportunities to increase revenue, improve profitability, optimize operations, and enhance customer satisfaction.
 
-As the assigned Data Analyst, my responsibility is to:
+As the Data Analyst assigned to this project, my responsibilities include:
 
-* Assess the quality of the raw data.
-* Prepare the data for analysis.
-* Identify trends and patterns.
-* Discover opportunities to improve business performance.
-* Present recommendations that support data-driven decision making.
+- Assessing the quality of raw business data
+- Cleaning and preparing the dataset for analysis
+- Identifying trends and hidden patterns
+- Discovering business opportunities
+- Building an interactive Excel dashboard
+- Presenting actionable recommendations supported by data
 
 ---
 
 # Dataset Information
 
-**Dataset:** Online Retail II
+**Dataset Name:** Global Superstore 2016
 
-**Source:** UCI Machine Learning Repository
+**Source:** Kaggle
 
-The original dataset contains transactional sales records from a UK-based online retailer, including invoice information, products, quantities, prices, customers, countries, and transaction dates.
+The dataset contains transactional sales records from a global retail company, including:
 
-> **Note:** The original dataset is not included in this repository because of GitHub file size limitations. You can download it directly from the UCI Machine Learning Repository and follow the same analysis workflow.
+- Orders
+- Customers
+- Products
+- Sales
+- Profit
+- Discounts
+- Shipping Information
+- Regions
+- Countries
+- Categories
+- Sub-Categories
+
+This dataset provides a realistic business environment suitable for practicing data cleaning, exploratory analysis, and dashboard development.
 
 ---
 
 # Project Objectives
 
-* Perform a professional data quality assessment.
-* Clean and validate transactional data.
-* Identify inconsistencies and missing values.
-* Analyze customer purchasing behavior.
-* Evaluate product performance.
-* Identify sales trends and business opportunities.
-* Build an interactive Excel dashboard.
-* Deliver business recommendations supported by data.
+- Perform professional data quality assessment
+- Clean and validate raw business data
+- Handle missing and inconsistent values
+- Analyze customer purchasing behavior
+- Evaluate sales and profitability
+- Identify top-performing and underperforming products
+- Build an interactive Excel dashboard
+- Deliver business recommendations based on data
 
 ---
 
-# Business Questions
+# Business Problems to Solve
 
-This project aims to answer questions such as:
+## Revenue Analysis
 
-### Revenue Analysis
-
-* How has sales performance changed over time?
-* Which periods generate the highest revenue?
-* Are there seasonal trends?
-
-### Customer Analysis
-
-* Who are the highest-value customers?
-* Which customers purchase most frequently?
-* Which customers should be targeted for retention strategies?
-
-### Product Analysis
-
-* Which products contribute the most revenue?
-* Which products consistently underperform?
-* Which products should receive additional investment?
-
-### Geographic Analysis
-
-* Which countries generate the highest sales?
-* Which markets have the greatest growth potential?
-
-### Operational Insights
-
-* What data quality issues exist?
-* How can better data improve business decisions?
-* What recommendations can improve business performance?
+- How have sales changed over time?
+- Which months and years generate the highest revenue?
+- Are there seasonal sales trends?
 
 ---
 
-# Workflow
+## Profitability Analysis
 
-This project follows a structured analytics process:
+- Which products generate the highest profit?
+- Which products consistently lose money?
+- How do discounts affect profitability?
 
-1. Data Understanding
+---
+
+## Customer Analysis
+
+- Who are the highest-value customers?
+- Which customers purchase most frequently?
+- Which customers should be targeted for loyalty programs?
+
+---
+
+## Product Analysis
+
+- Which categories contribute the most revenue?
+- Which sub-categories are underperforming?
+- Which products should receive additional investment?
+
+---
+
+## Regional Analysis
+
+- Which countries generate the highest revenue?
+- Which regions have the highest profitability?
+- Which markets require improvement?
+
+---
+
+## Shipping Analysis
+
+- Which shipping modes are most commonly used?
+- Does shipping mode impact profitability?
+- Are there opportunities to optimize shipping performance?
+
+---
+
+# Project Workflow
+
+The project follows a structured business analytics workflow:
+
+1. Business Understanding
 2. Data Quality Assessment
 3. Data Cleaning
 4. Exploratory Data Analysis
 5. Business Analysis
 6. Dashboard Development
 7. Business Recommendations
-8. Project Documentation
+8. Documentation
 
 ---
 
-# Repository Contents
+# Repository Structure
 
-```text
+```
 Retail-Sales-Business-Analysis-Using-Microsoft-Excel-Project
 
-├── README.md
-├── Excel_Workbook/
-├── Dashboard/
-├── Business_Report/
-├── Images/
-└── Dataset_Info.md
+│── README.md
+│── Excel_Workbook/
+│── Dashboard/
+│── Business_Report/
+│── Images/
+│── Dataset_Info.md
 ```
 
 ---
 
-# Project Status
+# Current Project Status
 
-🚧 **Currently In Progress**
+🚧 **Project In Progress**
 
-Current Progress:
+Current Progress
 
-* ✅ Project Planning
-* ✅ Dataset Selection
-* ⏳ Data Quality Assessment
-* ⏳ Data Cleaning
-* ⏳ Exploratory Data Analysis
-* ⏳ Dashboard Development
-* ⏳ Business Recommendations
+- ✅ Project Planning
+- ✅ Dataset Selection
+- ⏳ Data Quality Assessment
+- ⏳ Data Cleaning
+- ⏳ Exploratory Data Analysis
+- ⏳ Dashboard Development
+- ⏳ Business Recommendations
+- ⏳ Final Documentation
 
-Progress will be updated regularly as each stage is completed.
+Progress will be updated as each stage of the project is completed.
 
 ---
 
 # Tools Used
 
-* Microsoft Excel
-* Pivot Tables
-* Pivot Charts
-* Excel Formulas
-* Conditional Formatting
-* Data Validation
-* Data Cleaning Techniques
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Excel Formulas
+- Data Cleaning Techniques
+- Conditional Formatting
+- Data Validation
+
+---
+
+# Expected Deliverables
+
+- Cleaned Dataset
+- Data Quality Report
+- Cleaning Log
+- Exploratory Data Analysis
+- Interactive Dashboard
+- Executive Business Report
+- Business Recommendations
 
 ---
 
 # Future Roadmap
 
-This project is the first step in a larger analytics portfolio.
+This project is the first step in a complete analytics portfolio.
 
-Upcoming projects will expand this analysis using:
+The same business case will later be expanded using:
 
-* SQL for advanced querying
-* Power BI for interactive dashboards
-* End-to-end analytics workflows
-* Larger business case studies
+- SQL for advanced querying and data analysis
+- Power BI for executive dashboards
+- End-to-end analytics workflows
+- Advanced business case studies
 
 ---
 
@@ -161,19 +202,22 @@ Upcoming projects will expand this analysis using:
 
 ## Raju S
 
-Aspiring Data Analyst with an MSc in Chemistry, building practical analytics skills through hands-on business projects and real-world datasets.
+Aspiring Data Analyst with an MSc in Chemistry, transitioning into Data Analytics by building practical business projects using real-world datasets.
 
-My goal is to develop projects that demonstrate analytical thinking, business problem-solving, and data storytelling while continuously learning from the analytics community.
+I believe the best way to learn analytics is by solving realistic business problems, documenting the complete analytical process, and continuously improving through feedback from the data community.
 
 ### Connect with Me
 
-* **LinkedIn:** https://www.linkedin.com/in/raju-s-87ab31228/
-* **GitHub:** https://github.com/raju-sivakumar
+**LinkedIn**
+https://www.linkedin.com/in/raju-s-87ab31228/
+
+**GitHub**
+https://github.com/raju-sivakumar
 
 ---
 
 # Acknowledgements
 
-This project uses the **Online Retail II** dataset provided by the **UCI Machine Learning Repository** for educational and portfolio purposes.
+This project uses the **Global Superstore 2016** dataset made publicly available on **Kaggle** for educational and portfolio purposes.
 
 All data cleaning, analysis, dashboard design, documentation, and business recommendations presented in this repository are my own work.
